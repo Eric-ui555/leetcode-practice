@@ -1,4 +1,4 @@
-package org.example;
+package org.leetcode.number;
 
 import java.util.HashMap;
 
