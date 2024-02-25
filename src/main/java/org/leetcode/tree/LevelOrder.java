@@ -1,38 +1,1 @@
-package org.leetcode.tree;
-
-import java.util.*;
-
-/**
- * @author ChengFl
- * @version 1.0
- * @description: 102. 二叉树的层序遍历
- * @date 2023/11/16 9:19
- */
-
-public class LevelOrder {
-    public List<List<Integer>> levelOrder(TreeNode root) {
-        if (root == null) return new LinkedList<>();
-        Queue<TreeNode> queue = new ArrayDeque<>();
-        List<List<Integer>> res = new ArrayList<>();
-        queue.add(root);
-        ArrayList<Integer> rootLayer = new ArrayList<>();
-        rootLayer.add(root.val);
-        res.add(rootLayer);
-        while (!queue.isEmpty()) {
-            int n = queue.size();
-            List<Integer> layer = new ArrayList<>();
-            for (int i = 0; i < n; i++) {
-                TreeNode p = queue.poll();
-                // layer.add(p.val);
-                if (p.left != null) {
-                    queue.add(p.left);
-                }
-                if (p.right != null) {
-                    queue.add(p.right);
-                }
-            }
-            res.add(layer);
-        }
-        return res;
-    }
-}
+package org.leetcode.tree;import java.util.*;/** * @author ChengFl * @version 1.0 * @description: 102. 二叉树的层序遍历 * @date 2023/11/16 9:19 */public class LevelOrder {    public List<List<Integer>> levelOrder(TreeNode root) {        // 边界条件        if (root == null) return new LinkedList<>();        // 定义双端队列        Queue<TreeNode> queue = new ArrayDeque<>();        // 结果数组        List<List<Integer>> res = new ArrayList<>();        // 根节点入队        queue.offer(root);        // // 存储第一层值（根节点）        // ArrayList<Integer> rootLayer = new ArrayList<>();        // rootLayer.add(root.val);        // // 第一层        // res.add(rootLayer);        // 判断队列是否为空，不为空则执行循环体        while (!queue.isEmpty()) {            // 获取队列长度            int n = queue.size();            List<Integer> layer = new ArrayList<>();            while(n > 0){                TreeNode p = queue.poll();                layer.add(p.val);                if (p.left != null) queue.offer(p.left);                if (p.right != null) queue.offer(p.right);                n--;            }            res.add(layer);        }        return res;    }    /**     * 代码随想录解法     */    public List<List<Integer>> resList = new ArrayList<List<Integer>>();    public List<List<Integer>> levelOrder2(TreeNode root) {        //checkFun01(root,0);        checkFun02(root);        return resList;    }    /**     * DFS--递归方式     * @param node 结点     * @param deep 深度     */    public void checkFun01(TreeNode node, Integer deep) {        if (node == null) return;        deep++;        if (resList.size() < deep) {            //当层级增加时，list的Item也增加，利用list的索引值进行层级界定            List<Integer> item = new ArrayList<Integer>();            resList.add(item);        }        resList.get(deep - 1).add(node.val);        checkFun01(node.left, deep);        checkFun01(node.right, deep);    }    //BFS--迭代方式--借助队列    public void checkFun02(TreeNode node) {        if (node == null) return;        Queue<TreeNode> que = new LinkedList<TreeNode>();        que.offer(node);        while (!que.isEmpty()) {            List<Integer> itemList = new ArrayList<Integer>();            int len = que.size();            while (len > 0) {                TreeNode tmpNode = que.poll();                itemList.add(tmpNode.val);                if (tmpNode.left != null) que.offer(tmpNode.left);                if (tmpNode.right != null) que.offer(tmpNode.right);                len--;            }            resList.add(itemList);        }    }}
