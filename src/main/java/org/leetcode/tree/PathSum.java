@@ -22,7 +22,6 @@ public class PathSum {
         return ret;
     }
 
-
     void dfs(TreeNode root, int targetNum) {
         if (root == null) return;
         path.offerLast(root.val);
