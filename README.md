@@ -1,3 +1,3 @@
 # leetcode-master
 
-leetcode 联系记录
+leetcode 练习记录
