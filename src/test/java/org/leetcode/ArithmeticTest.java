@@ -1,6 +1,6 @@
 package org.leetcode;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 /**
  * @author ChengFl
@@ -18,13 +18,11 @@ public class ArithmeticTest {
      */
     @Test
     public void XOROperations() {
-        int[] nums = {4,1,2,1,2};
+        int[] nums = {4, 1, 2, 1, 2};
         int ans = nums[0];
-        if (nums.length > 1) {
-            for (int i = 1; i < nums.length; i++) {
-                ans = ans ^ nums[i];
-                System.out.println(ans);
-            }
+        for (int i = 1; i < nums.length; i++) {
+            ans = ans ^ nums[i];
+            System.out.println(ans);
         }
     }
 }

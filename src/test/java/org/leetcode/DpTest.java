@@ -1,9 +1,8 @@
 package org.leetcode;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 import org.leetcode.dp.Change2;
 import org.leetcode.dp.GenerateYanHui;
-import org.leetcode.dp.NumSquares;
 import org.leetcode.dp.Rob;
 
 import java.util.List;

@@ -1,6 +1,6 @@
 package org.leetcode;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 import org.leetcode.binarySearch.FindRotateSortArrayMin;
 import org.leetcode.binarySearch.SearchMatrix;
 import org.leetcode.binarySearch.SearchRange;
