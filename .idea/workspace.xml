@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c01a09b6-f84d-464b-9845-0447fc996d5d" name="Changes" comment="Tree">
-      <change afterPath="$PROJECT_DIR$/.idea/JavaSceneConfigState.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/leetcode/Demo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/leetcode/tree/DeleteBSTNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/tree/DeleteBSTNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/leetcode/tree/InsertIntoBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/tree/InsertIntoBST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/leetcode/StringDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/leetcode/StringDemo.java" afterDir="false" />
-    </list>
+    <list default="true" id="c01a09b6-f84d-464b-9845-0447fc996d5d" name="Changes" comment="BST" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -267,7 +259,7 @@
       <workItem from="1708842114805" duration="13261000" />
       <workItem from="1709001509135" duration="7331000" />
       <workItem from="1709032171862" duration="8222000" />
-      <workItem from="1709082315782" duration="11761000" />
+      <workItem from="1709082315782" duration="12223000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1685761103958</created>
@@ -364,7 +356,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709040372747</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="BST">
+      <option name="closed" value="true" />
+      <created>1709112310893</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1709112310893</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -388,7 +388,8 @@
     <MESSAGE value="二叉树" />
     <MESSAGE value="KMP" />
     <MESSAGE value="Tree" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tree" />
+    <MESSAGE value="BST" />
+    <option name="LAST_COMMIT_MESSAGE" value="BST" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
