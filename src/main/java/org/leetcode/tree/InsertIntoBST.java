@@ -31,21 +31,16 @@ public class InsertIntoBST {
             return new TreeNode(val);
         }
         TreeNode pre = null, cur = root;
-        while (true) {
-            if (cur != null) {
-                pre = cur;
-                cur = cur.val > val ? cur.left : cur.right;
-            } else {
-                break;
-            }
+        while (cur != null) {
+            pre = cur;
+            cur = cur.val > val ? cur.left : cur.right;
         }
         TreeNode treeNode = new TreeNode(val);
-        if(pre.val>val){
+        if (pre.val > val) {
             pre.left = treeNode;
-        }else {
+        } else {
             pre.right = treeNode;
         }
-
         return root;
     }
 }

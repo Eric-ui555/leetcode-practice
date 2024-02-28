@@ -4,23 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c01a09b6-f84d-464b-9845-0447fc996d5d" name="Changes" comment="KMP">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/tree/DeleteBSTNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/tree/FindModeSolution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/tree/GetMinimumDifferenceSolution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/tree/InsertIntoBST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/tree/LowestCommonAncestor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/tree/LowestCommonAncestor2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/tree/MergeTreesSolution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/leetcode/CommonPoolTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/leetcode/StringDemo.java" afterDir="false" />
+    <list default="true" id="c01a09b6-f84d-464b-9845-0447fc996d5d" name="Changes" comment="Tree">
+      <change afterPath="$PROJECT_DIR$/.idea/JavaSceneConfigState.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/leetcode/Demo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/leetcode/tree/IsValidBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/tree/IsValidBST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/leetcode/ArithmeticTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/leetcode/ArithmeticTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/leetcode/CommonPool.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/leetcode/DpTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/leetcode/DpTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/leetcode/searchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/leetcode/searchTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/leetcode/tree/DeleteBSTNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/tree/DeleteBSTNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/leetcode/tree/InsertIntoBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/tree/InsertIntoBST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/leetcode/StringDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/leetcode/StringDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +47,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.DeleteBSTNode.executor": "Debug",
+    "Application.Demo1.executor": "Run",
     "Application.StringDemo.executor": "Run",
     "JUnit.CommonPoolTest.test01.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -77,13 +69,13 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.DeleteBSTNode">
-    <configuration name="CommonPool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.leetcode.CommonPool" />
+  <component name="RunManager" selected="Application.Demo1">
+    <configuration name="DeleteBSTNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.leetcode.tree.DeleteBSTNode" />
       <module name="leetcode-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.leetcode.*" />
+          <option name="PATTERN" value="org.leetcode.tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeleteBSTNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.leetcode.tree.DeleteBSTNode" />
+    <configuration name="Demo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.leetcode.Demo1" />
       <module name="leetcode-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.leetcode.tree.*" />
+          <option name="PATTERN" value="org.leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DeleteBSTNode" />
+        <item itemvalue="Application.Demo1" />
         <item itemvalue="Application.StringDemo" />
+        <item itemvalue="Application.DeleteBSTNode" />
         <item itemvalue="JUnit.CommonPoolTest.test01" />
         <item itemvalue="Application.MyPow" />
-        <item itemvalue="Application.CommonPool" />
       </list>
     </recent_temporary>
   </component>
@@ -274,7 +266,8 @@
       <workItem from="1708837828893" duration="4253000" />
       <workItem from="1708842114805" duration="13261000" />
       <workItem from="1709001509135" duration="7331000" />
-      <workItem from="1709032171862" duration="8122000" />
+      <workItem from="1709032171862" duration="8222000" />
+      <workItem from="1709082315782" duration="11761000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1685761103958</created>
@@ -347,7 +340,31 @@
       <option name="project" value="LOCAL" />
       <updated>1709001644985</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Tree">
+      <option name="closed" value="true" />
+      <created>1709040319143</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1709040319143</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Tree">
+      <option name="closed" value="true" />
+      <created>1709040362077</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1709040362077</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Tree">
+      <option name="closed" value="true" />
+      <created>1709040372747</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1709040372747</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -370,7 +387,8 @@
     <MESSAGE value="README" />
     <MESSAGE value="二叉树" />
     <MESSAGE value="KMP" />
-    <option name="LAST_COMMIT_MESSAGE" value="KMP" />
+    <MESSAGE value="Tree" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tree" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -419,11 +437,6 @@
           <url>file://$PROJECT_DIR$/src/test/java/org/leetcode/DpTest.java</url>
           <line>20</line>
           <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/leetcode/dp/GenerateYanHui.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/org/leetcode/DpTest.java</url>
@@ -487,17 +500,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/leetcode/tree/DeleteBSTNode.java</url>
-          <line>93</line>
+          <line>91</line>
           <option name="timeStamp" value="41" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/leetcode/tree/DeleteBSTNode.java</url>
-          <line>60</line>
-          <option name="timeStamp" value="43" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/leetcode/tree/DeleteBSTNode.java</url>
-          <line>85</line>
+          <line>83</line>
           <option name="timeStamp" value="44" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
