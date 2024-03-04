@@ -3,7 +3,7 @@ package org.leetcode.list;
 /**
  * @author ChengFl
  * @version 1.0
- * @description: 排序链表
+ * @description: 148. 排序链表
  * @date 2023/6/7 9:11
  */
 
@@ -49,9 +49,9 @@ public class SortList_148 {
         ListNode mid = slow;
         ListNode list1 = sortList(head, mid);
         ListNode list2 = sortList(mid, tail);
-        ListNode sorted = merge(list1, list2);
-        return sorted;
+        return merge(list1, list2);
     }
+
     // 合并两个有序链表
     public ListNode merge(ListNode head1, ListNode head2) {
         ListNode dummyHead = new ListNode(0);

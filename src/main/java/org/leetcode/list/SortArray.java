@@ -20,6 +20,7 @@ public class SortArray {
 
     /**
      * 堆排序
+     * 一般用数组来表示堆，下标为 i 的结点的父结点下标为(i-1)/2；其左右子结点分别为 (2i + 1)、(2i + 2)
      */
 
     public void heapSort(int[] nums) {
@@ -32,25 +33,35 @@ public class SortArray {
         }
     }
 
+    /**
+     * 创建最大堆
+     */
     public void buildMaxHeap(int[] nums, int len) {
         for (int i = len / 2; i >= 0; --i) {
             maxHeapify(nums, i, len);
         }
     }
 
+    /**
+     * 最大堆调整
+     */
     public void maxHeapify(int[] nums, int i, int len) {
+        // 找到第一个非叶子节点
         while ((i << 1) + 1 <= len) {
-            int lson = (i << 1) + 1;
-            int rson = (i << 1) + 2;
+            int lSon = (i << 1) + 1;  // 左孩子节点
+            int rSon = (i << 1) + 2;  // 右孩子节点
             int large;
-            if (lson <= len && nums[lson] > nums[i]) {
-                large = lson;
+            // 对比左孩子节点
+            if (lSon <= len && nums[lSon] > nums[i]) {
+                large = lSon;
             } else {
                 large = i;
             }
-            if (rson <= len && nums[rson] > nums[large]) {
-                large = rson;
+            // 对比右孩子节点
+            if (rSon <= len && nums[rSon] > nums[large]) {
+                large = rSon;
             }
+            // 交换
             if (large != i) {
                 swap(nums, i, large);
                 i = large;

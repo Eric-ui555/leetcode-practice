@@ -4,10 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c01a09b6-f84d-464b-9845-0447fc996d5d" name="Changes" comment="2.29">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/list/SortArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/JavaSceneConfigState.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/JavaSceneConfigState.xml" afterDir="false" />
+    <list default="true" id="c01a09b6-f84d-464b-9845-0447fc996d5d" name="Changes" comment="3.1">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/slidingWindow/MinSubArrayLen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/string/IsPalindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/string/IsSubsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/string/ReverseWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/tree/ZigzagLevelOrder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/leetcode/list/SortArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/list/SortArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/leetcode/list/SortList_148.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/list/SortList_148.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/leetcode/StringDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/leetcode/StringDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,40 +60,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.DeleteBSTNode.executor": "Debug",
-    "Application.Demo1.executor": "Run",
-    "Application.MaxSlidingWindow.executor": "Debug",
-    "Application.SortArray.executor": "Run",
-    "Application.StringDemo.executor": "Run",
-    "JUnit.CommonPoolTest.test01.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "jdk.selected.JAVA_MODULE": "11",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.1954023",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.DeleteBSTNode.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Demo1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IsSubsequence.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MaxSlidingWindow.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.MinSubArrayLen.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseWords.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.SortArray.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.StringDemo.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CommonPoolTest.test01.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.1954023&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.SortArray">
-    <configuration name="DeleteBSTNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.leetcode.tree.DeleteBSTNode" />
+}</component>
+  <component name="RunManager" selected="Application.IsSubsequence">
+    <configuration name="IsSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.leetcode.string.IsSubsequence" />
       <module name="leetcode-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.leetcode.tree.*" />
+          <option name="PATTERN" value="org.leetcode.string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.leetcode.Demo1" />
+    <configuration name="MinSubArrayLen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.leetcode.slidingWindow.MinSubArrayLen" />
       <module name="leetcode-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.leetcode.*" />
+          <option name="PATTERN" value="org.leetcode.slidingWindow.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxSlidingWindow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.leetcode.queue.MaxSlidingWindow" />
+    <configuration name="ReverseWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.leetcode.string.ReverseWords" />
       <module name="leetcode-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.leetcode.queue.*" />
+          <option name="PATTERN" value="org.leetcode.string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IsSubsequence" />
+        <item itemvalue="Application.MinSubArrayLen" />
+        <item itemvalue="Application.ReverseWords" />
         <item itemvalue="Application.SortArray" />
         <item itemvalue="Application.StringDemo" />
-        <item itemvalue="Application.MaxSlidingWindow" />
-        <item itemvalue="Application.Demo1" />
-        <item itemvalue="Application.DeleteBSTNode" />
       </list>
     </recent_temporary>
   </component>
@@ -281,7 +289,17 @@
       <workItem from="1709167816996" duration="5408000" />
       <workItem from="1709174066318" duration="5291000" />
       <workItem from="1709259152156" duration="3188000" />
-      <workItem from="1709263413926" duration="2210000" />
+      <workItem from="1709263413926" duration="2354000" />
+      <workItem from="1709293169418" duration="2549000" />
+      <workItem from="1709301977178" duration="183000" />
+      <workItem from="1709342233702" duration="6330000" />
+      <workItem from="1709349589563" duration="916000" />
+      <workItem from="1709364555224" duration="947000" />
+      <workItem from="1709370495312" duration="599000" />
+      <workItem from="1709390659909" duration="2413000" />
+      <workItem from="1709394657825" duration="1595000" />
+      <workItem from="1709513423115" duration="4294000" />
+      <workItem from="1709520951985" duration="7000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1685761103958</created>
@@ -410,7 +428,31 @@
       <option name="project" value="LOCAL" />
       <updated>1709173812573</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="排序">
+      <option name="closed" value="true" />
+      <created>1709290405647</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1709290405648</updated>
+    </task>
+    <task id="LOCAL-00019" summary="3.1">
+      <option name="closed" value="true" />
+      <created>1709290427818</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1709290427818</updated>
+    </task>
+    <task id="LOCAL-00020" summary="3.1">
+      <option name="closed" value="true" />
+      <created>1709290454628</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1709290454628</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -436,7 +478,9 @@
     <MESSAGE value="Tree" />
     <MESSAGE value="BST" />
     <MESSAGE value="2.29" />
-    <option name="LAST_COMMIT_MESSAGE" value="2.29" />
+    <MESSAGE value="排序" />
+    <MESSAGE value="3.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="3.1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -573,18 +617,43 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/leetcode/list/SortArray.java</url>
-          <line>83</line>
+          <line>94</line>
           <option name="timeStamp" value="55" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/leetcode/list/SortArray.java</url>
-          <line>72</line>
+          <line>83</line>
           <option name="timeStamp" value="56" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/leetcode/list/SortArray.java</url>
-          <line>73</line>
+          <line>84</line>
           <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/leetcode/list/SortArray.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/leetcode/list/SortArray.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/leetcode/string/ReverseWords.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/leetcode/slidingWindow/MinSubArrayLen.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/leetcode/slidingWindow/MinSubArrayLen.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="63" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/src/main/java/org/leetcode/tree/FindModeSolution.java</url>
