@@ -4,16 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c01a09b6-f84d-464b-9845-0447fc996d5d" name="Changes" comment="3.1">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/slidingWindow/MinSubArrayLen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/string/IsPalindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/string/IsSubsequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/string/ReverseWords.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/tree/ZigzagLevelOrder.java" afterDir="false" />
+    <list default="true" id="c01a09b6-f84d-464b-9845-0447fc996d5d" name="Changes" comment="3.4">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/backtrace/GenerateParenthesis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/list/MaxProfit2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/list/MaxProfit3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/number/FourSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/number/ThreeSumClosest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/number/TwoSumInList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/leetcode/list/SortArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/list/SortArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/leetcode/list/SortList_148.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/list/SortList_148.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/leetcode/StringDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/leetcode/StringDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/leetcode/list/ThreeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/number/ThreeSum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,12 +63,14 @@
   &quot;keyToString&quot;: {
     &quot;Application.DeleteBSTNode.executor&quot;: &quot;Debug&quot;,
     &quot;Application.Demo1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FourSum.executor&quot;: &quot;Run&quot;,
     &quot;Application.IsSubsequence.executor&quot;: &quot;Run&quot;,
     &quot;Application.MaxSlidingWindow.executor&quot;: &quot;Debug&quot;,
     &quot;Application.MinSubArrayLen.executor&quot;: &quot;Run&quot;,
     &quot;Application.ReverseWords.executor&quot;: &quot;Debug&quot;,
     &quot;Application.SortArray.executor&quot;: &quot;Debug&quot;,
     &quot;Application.StringDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreeSumClosest.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.CommonPoolTest.test01.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -90,13 +91,26 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.IsSubsequence">
+  <component name="RunManager" selected="Application.FourSum">
+    <configuration name="FourSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.leetcode.number.FourSum" />
+      <module name="leetcode-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.leetcode.number.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="IsSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.leetcode.string.IsSubsequence" />
       <module name="leetcode-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.leetcode.string.*" />
+          <option name="PATTERN" value="org.leetcode.backtrace.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,7 +136,7 @@
       <module name="leetcode-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.leetcode.string.*" />
+          <option name="PATTERN" value="org.leetcode.backtrace.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,25 +144,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.leetcode.list.SortArray" />
+    <configuration name="ThreeSumClosest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.leetcode.number.ThreeSumClosest" />
       <module name="leetcode-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.leetcode.list.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.leetcode.StringDemo" />
-      <module name="leetcode-practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.leetcode.*" />
+          <option name="PATTERN" value="org.leetcode.number.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FourSum" />
+        <item itemvalue="Application.ThreeSumClosest" />
         <item itemvalue="Application.IsSubsequence" />
         <item itemvalue="Application.MinSubArrayLen" />
         <item itemvalue="Application.ReverseWords" />
-        <item itemvalue="Application.SortArray" />
-        <item itemvalue="Application.StringDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -300,6 +301,10 @@
       <workItem from="1709394657825" duration="1595000" />
       <workItem from="1709513423115" duration="4294000" />
       <workItem from="1709520951985" duration="7000" />
+      <workItem from="1709538885415" duration="825000" />
+      <workItem from="1709600932177" duration="3892000" />
+      <workItem from="1709644968772" duration="1794000" />
+      <workItem from="1709686709140" duration="4186000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1685761103958</created>
@@ -452,7 +457,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709290454628</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="3.4">
+      <option name="closed" value="true" />
+      <created>1709538948470</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1709538948470</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -480,7 +493,8 @@
     <MESSAGE value="2.29" />
     <MESSAGE value="排序" />
     <MESSAGE value="3.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="3.1" />
+    <MESSAGE value="3.4" />
+    <option name="LAST_COMMIT_MESSAGE" value="3.4" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -496,12 +510,12 @@
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/leetcode/list/ThreeSum.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/org/leetcode/number/ThreeSum.java</url>
           <line>32</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/leetcode/list/ThreeSum.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/org/leetcode/number/ThreeSum.java</url>
           <line>26</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
@@ -654,6 +668,21 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/leetcode/slidingWindow/MinSubArrayLen.java</url>
           <line>23</line>
           <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/leetcode/number/ThreeSumClosest.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/leetcode/number/FourSum.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/leetcode/number/FourSum.java</url>
+          <line>67</line>
+          <option name="timeStamp" value="66" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/src/main/java/org/leetcode/tree/FindModeSolution.java</url>
