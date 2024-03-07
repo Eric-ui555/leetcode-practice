@@ -4,15 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c01a09b6-f84d-464b-9845-0447fc996d5d" name="Changes" comment="3.4">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/backtrace/GenerateParenthesis.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/list/MaxProfit2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/list/MaxProfit3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/number/FourSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/number/ThreeSumClosest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/number/TwoSumInList.java" afterDir="false" />
+    <list default="true" id="c01a09b6-f84d-464b-9845-0447fc996d5d" name="Changes" comment="3.5">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/dp/CoinChange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/dp/MinCostClimbingStairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/dp/UniquePaths.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/dp/WordBreak.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/leetcode/list/ThreeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/number/ThreeSum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,39 +56,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.DeleteBSTNode.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Demo1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FourSum.executor&quot;: &quot;Run&quot;,
-    &quot;Application.IsSubsequence.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MaxSlidingWindow.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.MinSubArrayLen.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReverseWords.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.SortArray.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.StringDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ThreeSumClosest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CommonPoolTest.test01.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.1954023&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.DeleteBSTNode.executor": "Debug",
+    "Application.Demo1.executor": "Run",
+    "Application.FourSum.executor": "Run",
+    "Application.IsSubsequence.executor": "Run",
+    "Application.MaxSlidingWindow.executor": "Debug",
+    "Application.MinCostClimbingStairs.executor": "Run",
+    "Application.MinSubArrayLen.executor": "Run",
+    "Application.ReverseWords.executor": "Debug",
+    "Application.SortArray.executor": "Debug",
+    "Application.StringDemo.executor": "Run",
+    "Application.ThreeSumClosest.executor": "Run",
+    "Application.UniquePaths.executor": "Run",
+    "Application.WordBreak.executor": "Run",
+    "JUnit.CommonPoolTest.test01.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "11",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.1954023",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Application.FourSum">
+}]]></component>
+  <component name="RunManager" selected="Application.UniquePaths">
     <configuration name="FourSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.leetcode.number.FourSum" />
       <module name="leetcode-practice" />
@@ -105,38 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IsSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.leetcode.string.IsSubsequence" />
+    <configuration name="MinCostClimbingStairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.leetcode.dp.MinCostClimbingStairs" />
       <module name="leetcode-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.leetcode.backtrace.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MinSubArrayLen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.leetcode.slidingWindow.MinSubArrayLen" />
-      <module name="leetcode-practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.leetcode.slidingWindow.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReverseWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.leetcode.string.ReverseWords" />
-      <module name="leetcode-practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.leetcode.backtrace.*" />
+          <option name="PATTERN" value="org.leetcode.dp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,13 +131,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UniquePaths" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.leetcode.dp.UniquePaths" />
+      <module name="leetcode-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.leetcode.dp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WordBreak" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.leetcode.dp.WordBreak" />
+      <module name="leetcode-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.leetcode.dp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UniquePaths" />
+        <item itemvalue="Application.MinCostClimbingStairs" />
+        <item itemvalue="Application.WordBreak" />
         <item itemvalue="Application.FourSum" />
         <item itemvalue="Application.ThreeSumClosest" />
-        <item itemvalue="Application.IsSubsequence" />
-        <item itemvalue="Application.MinSubArrayLen" />
-        <item itemvalue="Application.ReverseWords" />
       </list>
     </recent_temporary>
   </component>
@@ -304,7 +304,8 @@
       <workItem from="1709538885415" duration="825000" />
       <workItem from="1709600932177" duration="3892000" />
       <workItem from="1709644968772" duration="1794000" />
-      <workItem from="1709686709140" duration="4186000" />
+      <workItem from="1709686709140" duration="4977000" />
+      <workItem from="1709773299816" duration="4979000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1685761103958</created>
@@ -465,7 +466,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709538948470</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="3.5">
+      <option name="closed" value="true" />
+      <created>1709693612933</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1709693612933</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -494,7 +503,8 @@
     <MESSAGE value="排序" />
     <MESSAGE value="3.1" />
     <MESSAGE value="3.4" />
-    <option name="LAST_COMMIT_MESSAGE" value="3.4" />
+    <MESSAGE value="3.5" />
+    <option name="LAST_COMMIT_MESSAGE" value="3.5" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -683,6 +693,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/leetcode/number/FourSum.java</url>
           <line>67</line>
           <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/leetcode/dp/WordBreak.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/leetcode/dp/MinCostClimbingStairs.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="68" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/src/main/java/org/leetcode/tree/FindModeSolution.java</url>
