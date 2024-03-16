@@ -4,12 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c01a09b6-f84d-464b-9845-0447fc996d5d" name="Changes" comment="3.5">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/dp/CoinChange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/dp/MinCostClimbingStairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/dp/UniquePaths.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/dp/WordBreak.java" afterDir="false" />
+    <list default="true" id="c01a09b6-f84d-464b-9845-0447fc996d5d" name="Changes" comment="动态规划算法">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/backtrace/CombinationSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/backtrace/CombinationSum2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/backtrace/CombinationSum3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/backtrace/Combine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/backtrace/LetterCombinations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/backtrace/PartitionPalindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/bits/MissingNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/bits/SingleNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/dp/MinPathSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/dp/UniquePathsWithObstacles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/hashMap/CanConstruct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/list/FindDuplicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/leetcode/HelloWorld.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/leetcode/dp/UniquePaths.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/dp/UniquePaths.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/leetcode/list/CircularLinkedList_142.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/list/CircularLinkedList_142.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/leetcode/Demo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/leetcode/Demo1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,48 +68,55 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.DeleteBSTNode.executor": "Debug",
-    "Application.Demo1.executor": "Run",
-    "Application.FourSum.executor": "Run",
-    "Application.IsSubsequence.executor": "Run",
-    "Application.MaxSlidingWindow.executor": "Debug",
-    "Application.MinCostClimbingStairs.executor": "Run",
-    "Application.MinSubArrayLen.executor": "Run",
-    "Application.ReverseWords.executor": "Debug",
-    "Application.SortArray.executor": "Debug",
-    "Application.StringDemo.executor": "Run",
-    "Application.ThreeSumClosest.executor": "Run",
-    "Application.UniquePaths.executor": "Run",
-    "Application.WordBreak.executor": "Run",
-    "JUnit.CommonPoolTest.test01.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "jdk.selected.JAVA_MODULE": "11",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.1954023",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.CombinationSum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CombinationSum2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CombinationSum3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Combine.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DeleteBSTNode.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Demo1.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.FindDuplicate.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FourSum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IsSubsequence.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LetterCombinations.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MaxSlidingWindow.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.MinCostClimbingStairs.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MinSubArrayLen.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PartitionPalindrome.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseWords.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.SortArray.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.StringDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreeSumClosest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.UniquePaths.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WordBreak.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CommonPoolTest.test01.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.1954023&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.UniquePaths">
-    <configuration name="FourSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.leetcode.number.FourSum" />
+}</component>
+  <component name="RunManager" selected="Application.PartitionPalindrome">
+    <configuration name="CombinationSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.leetcode.backtrace.CombinationSum" />
       <module name="leetcode-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.leetcode.number.*" />
+          <option name="PATTERN" value="org.leetcode.backtrace.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinCostClimbingStairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.leetcode.dp.MinCostClimbingStairs" />
+    <configuration name="CombinationSum2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.leetcode.backtrace.CombinationSum2" />
       <module name="leetcode-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.leetcode.dp.*" />
+          <option name="PATTERN" value="org.leetcode.backtrace.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,12 +137,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreeSumClosest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.leetcode.number.ThreeSumClosest" />
+    <configuration name="CombinationSum3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.leetcode.backtrace.CombinationSum3" />
       <module name="leetcode-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.leetcode.number.*" />
+          <option name="PATTERN" value="org.leetcode.backtrace.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,12 +150,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UniquePaths" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.leetcode.dp.UniquePaths" />
+    <configuration name="LetterCombinations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.leetcode.backtrace.LetterCombinations" />
       <module name="leetcode-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.leetcode.dp.*" />
+          <option name="PATTERN" value="org.leetcode.backtrace.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,12 +163,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WordBreak" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.leetcode.dp.WordBreak" />
+    <configuration name="PartitionPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.leetcode.backtrace.PartitionPalindrome" />
       <module name="leetcode-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.leetcode.dp.*" />
+          <option name="PATTERN" value="org.leetcode.backtrace.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,11 +178,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.UniquePaths" />
-        <item itemvalue="Application.MinCostClimbingStairs" />
-        <item itemvalue="Application.WordBreak" />
-        <item itemvalue="Application.FourSum" />
-        <item itemvalue="Application.ThreeSumClosest" />
+        <item itemvalue="Application.PartitionPalindrome" />
+        <item itemvalue="Application.CombinationSum" />
+        <item itemvalue="Application.CombinationSum2" />
+        <item itemvalue="Application.CombinationSum3" />
+        <item itemvalue="Application.LetterCombinations" />
       </list>
     </recent_temporary>
   </component>
@@ -306,6 +325,17 @@
       <workItem from="1709644968772" duration="1794000" />
       <workItem from="1709686709140" duration="4977000" />
       <workItem from="1709773299816" duration="4979000" />
+      <workItem from="1709779498579" duration="585000" />
+      <workItem from="1709781474551" duration="13000" />
+      <workItem from="1709859098686" duration="2035000" />
+      <workItem from="1710123408377" duration="5268000" />
+      <workItem from="1710149250565" duration="3691000" />
+      <workItem from="1710159422276" duration="301000" />
+      <workItem from="1710292758494" duration="3524000" />
+      <workItem from="1710297393254" duration="8000" />
+      <workItem from="1710553955001" duration="7006000" />
+      <workItem from="1710574780270" duration="4642000" />
+      <workItem from="1710593399497" duration="23000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1685761103958</created>
@@ -474,7 +504,39 @@
       <option name="project" value="LOCAL" />
       <updated>1709693612933</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="动态规划算法">
+      <option name="closed" value="true" />
+      <created>1709779522332</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1709779522332</updated>
+    </task>
+    <task id="LOCAL-00024" summary="动态规划算法">
+      <option name="closed" value="true" />
+      <created>1709779611927</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1709779611927</updated>
+    </task>
+    <task id="LOCAL-00025" summary="动态规划算法">
+      <option name="closed" value="true" />
+      <created>1709779694717</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1709779694717</updated>
+    </task>
+    <task id="LOCAL-00026" summary="动态规划算法">
+      <option name="closed" value="true" />
+      <created>1709779718105</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1709779718105</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -504,7 +566,8 @@
     <MESSAGE value="3.1" />
     <MESSAGE value="3.4" />
     <MESSAGE value="3.5" />
-    <option name="LAST_COMMIT_MESSAGE" value="3.5" />
+    <MESSAGE value="动态规划算法" />
+    <option name="LAST_COMMIT_MESSAGE" value="动态规划算法" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -704,6 +767,31 @@
           <line>21</line>
           <option name="timeStamp" value="68" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/leetcode/Demo1.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/leetcode/Demo1.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/leetcode/backtrace/CombinationSum3.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/leetcode/backtrace/CombinationSum3.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/leetcode/backtrace/PartitionPalindrome.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/src/main/java/org/leetcode/tree/FindModeSolution.java</url>
           <line>18</line>
@@ -712,5 +800,9 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
